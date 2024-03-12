@@ -1,38 +1,59 @@
 .App {
-  text-align: center;
+  width: 100%;
+  height: 100vh;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.DropdownDiv {
+  width: 20rem;
+  height: fit-content;
   display: flex;
   flex-direction: column;
+}
+.LabelText {
+  width: 20rem;
+}
+.DropdownMenu,
+.InputField {
+  outline: none;
+  margin: 0.4rem;
+  height: 2rem;
+}
+.InputField {
+  height: 1.6rem;
+}
+.InputText {
+  width: 20rem;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+.Functionality {
+  width: 20rem;
+  height: 4rem;
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  margin-left: 1rem;
 }
-
-.App-link {
-  color: #61dafb;
+.SearchButton,
+.ResetButton {
+  width: 5rem;
+  height: fit-content;
+  margin: 4px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.OutputBox {
+  width: 100%;
+}
+.Tempdisplay {
+  width: 20rem;
+  border: 1px solid;
+  border-color: black;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  height: 4rem;
+  color: black;
 }
